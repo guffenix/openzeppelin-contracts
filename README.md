@@ -42,6 +42,10 @@ openzeppelin-contracts/contracts/utils/escrow at master · OpenZeppelin/openzepp
 
 !["Description challenge #3: EIP-165: Standard Interface Detection"](./images/challenge3.png)
 
+## OpenZeppelin Contracts Upgradeable
+
+["OpenZeppelin Contracts Upgradeable"](https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable)
+
 ## Usefull commands
 
 ```shell
