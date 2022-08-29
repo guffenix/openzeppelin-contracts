@@ -5,6 +5,10 @@
 Solution challenge #2
 !["Description challenge #2"](./images/challenge2.png)
 
+# Article for security
+
+["Security article"](https://www.cyberseguridad.net/keccak-es-el-algoritmo-elegido-como-sha-3)
+!["Security Keccak sha-3"](./images/security.png)
 Try running some of the following tasks:
 
 ```shell
