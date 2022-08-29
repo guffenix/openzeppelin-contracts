@@ -2,7 +2,8 @@
 
 !["Description of Tokens ERC 20, 721, 777, 1155"](./images/description-tokens.png)
 
-Solution challenge #2
+## Solution challenge 2
+
 !["Description challenge #2"](./images/challenge2.png)
 
 ## Article for security
@@ -36,6 +37,10 @@ openzeppelin-contracts/contracts/utils/escrow at master · OpenZeppelin/openzepp
 
 ["Useful to check inheritance in contracts"](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/utils/introspection)
 ["Good way to work with arrays"](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/utils/structs)
+
+## Solution challenge 3
+
+!["Description challenge #3: EIP-165: Standard Interface Detection"](./images/challenge3.png)
 
 ## Usefull commands
 

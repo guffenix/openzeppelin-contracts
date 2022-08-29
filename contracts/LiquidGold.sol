@@ -4,7 +4,7 @@ pragma solidity >=0.7.0 <0.9.0;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
-contract GoldenToken is ERC721("LiquidGolden", "LQDGOLD") {
+contract LiquidGoldenToken is ERC721("LiquidGolden", "LQDGOLD") {
     constructor() {
         _mint(msg.sender, 1);
     }

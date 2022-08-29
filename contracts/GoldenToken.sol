@@ -7,13 +7,26 @@ pragma solidity >=0.7.0 <0.9.0;
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/utils/introspection/ERC165.sol";
 
 // Also you can use ERC20Pausable
 // import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Pausable.sol";
 
-contract GoldenToken is Ownable, ERC20Burnable, Pausable {
+contract GoldenToken is Ownable, ERC20Burnable, Pausable, ERC165 {
     constructor() ERC20Burnable() ERC20("GoldenToken", "GLDTK") {
         _mint(msg.sender, 100_000);
+    }
+
+    function supportsInterface(bytes4 interfaceId)
+        public
+        view
+        virtual
+        override(ERC165)
+        returns (bool)
+    {
+        return
+            interfaceId == type(IERC20).interfaceId ||
+            super.supportsInterface(interfaceId);
     }
 
     function burnAmount(uint256 amount) public {
