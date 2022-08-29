@@ -2,6 +2,9 @@
 
 !["Description of Tokens ERC 20, 721, 777, 1155"](./images/description-tokens.png)
 
+Solution challenge #2
+!["Description challenge #2"](./images/challenge2.png)
+
 Try running some of the following tasks:
 
 ```shell
